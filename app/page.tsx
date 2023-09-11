@@ -60,7 +60,7 @@ export default function Home() {
           {cardData.map((card, i) => (
             <div
               key={i}
-              className="my-8 shadow-md flex flex-col items-center justify-center odd:md:flex-row-reverse even:md:flex-row bg-white rounded-xl md:mt-16"
+              className="my-8 shadow-md border flex flex-col items-center justify-center odd:md:flex-row-reverse even:md:flex-row bg-white rounded-xl md:mt-16"
             >
               <Card src={card.src} title={card.title} info={card.info} />
             </div>
