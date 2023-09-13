@@ -30,7 +30,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind CSS
 - [React](https://reactjs.org/) - JS library
-- [Next.js 13.4](https://nextjs.org/docs/getting-started) - React framework
+- [Next.js 13](https://nextjs.org/docs/getting-started) - React framework
 
 ## Author
 
