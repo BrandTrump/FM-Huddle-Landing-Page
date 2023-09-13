@@ -15,13 +15,15 @@ function Footer() {
               Get Started For Free
             </button>
           </div>
-          <div className="my-28 space-y-8 md:mt-32 md:flex md:justify-between md:space-y-0 md:items-center py-8">
-            <div className="flex flex-col gap-8 md:gap-4 md:flex-row md:justify-between ">
-              <div className="space-y-4 md:w-1/3 ">
-                <div className="relative w-full max-w-[9em] h-[1.5em] md:max-w-[13em] md:h-[2.1em]">
-                  <Image src={"/images/logo-white.svg"} alt="logo" fill />
-                </div>
-                <div className="flex gap-4 pt-4">
+
+          <div className="relative w-full max-w-[9em] h-[1.5em] md:max-w-[13em] md:h-[2.1em] mt-28">
+            <Image src={"/images/logo-white.svg"} alt="logo" fill />
+          </div>
+
+          <div className="mt-2 mb-20 space-y-8 md:mt-0 md:flex md:justify-between md:space-y-0 md:items-center py-8">
+            <div className="flex flex-col gap-8 md:gap-4 md:flex-row md:justify-between md:items-start">
+              <div className="space-y-4 md:w-1/3">
+                <div className="flex gap-4">
                   <div className="mt-1.5 relative w-full max-w-[0.8em] h-[1em] md:max-w-[0.8em] md:h-[1em]">
                     <Image src={"/images/icon-location.svg"} alt="email" fill />
                   </div>
@@ -45,7 +47,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="space-y-4 pt-2 md:flex md:space-y-0 md:gap-16 md:items-center">
+              <div className="space-y-4 md:flex md:space-y-0 md:gap-16 md:items-center">
                 <div className="space-y-4 flex flex-col">
                   <Link href={"/"} className="hover:underline">
                     About Us
@@ -71,8 +73,8 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="space-y-4 pt-4 md:flex md:flex-col md:pt-0 md:justify-between">
-                <div className="flex justify-center items-center gap-4 md:justify-start pt-12">
+              <div className="space-y-4 pt-4 md:flex md:flex-col md:pt-0 md:justify-between md:h-[13em]">
+                <div className="flex justify-center items-center gap-4 md:justify-start">
                   <div className="cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
